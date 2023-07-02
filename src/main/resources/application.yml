@@ -1,0 +1,18 @@
+server:
+  port: 7070
+spring:
+  profiles:
+    active: 'local' # profile enabled by default
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/pricer_db
+    username: pricer_user
+    password: pricer_password
