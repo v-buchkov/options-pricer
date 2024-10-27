@@ -1,2 +1,2 @@
 # options-pricer
-Pet-project сервиса прайсинга опционов на Java
+Pet-project of Java-driven Vanilla Options Pricing Engine.
